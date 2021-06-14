@@ -44,4 +44,4 @@ df['tariff_cost'] =  (((df.energy * df.energy_fee) + (df.minutes*df.parking_fee)
 round(df.groupby('id')['tariff_cost'].sum(),2).to_csv('./data/output/tariff_cost.csv')
 
 print('tarrif_cost file is sucessfully generated')
-print('time taken for overall operations is {} mins'.format(round(time.time()-start_time),2)/60))
+print('time taken for overall operations is {} mins'.format(round(time.time()-start_time),2)/60)
