@@ -1,0 +1,14 @@
+# the folder has following files
+1. Makefile - to automate the process
+2. data - data files are stored
+    2.1 input - tariff.csv and session.csv is located
+    2.2 output - sqlitedb and tariff_cost.csv will be stored
+3. requirements.txt - this has the requirements to be installed
+4.submission.py - this has the python code.
+
+##############################################
+Makefile  commands
+1. make - will create a python virtual environment with pip and install the dependencies.
+Further, will the submission.py and generate the output to data/output folder.
+
+2. make clean - will clean the created python virtual env.
